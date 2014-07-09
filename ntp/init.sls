@@ -8,7 +8,7 @@ ntp:
   file:
     - managed
     - name: /etc/ntp.conf
-    - source: salt://ntp/ntp.conf
+    - source: salt://ntp/templates/ntp.conf
     - mode: 644
     - template: jinja
     - require:
