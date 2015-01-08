@@ -1,7 +1,7 @@
-## Version 1.x.0
+## Version 1.1.0
 
 * Specify specific version of ntp package to be installed (which is pulled from
-* a defaulted pillar key of ntp:version)
+  a defaulted pillar key of ntp:version)
 
 ## Version 1.0.1
 
