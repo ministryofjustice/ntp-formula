@@ -1,10 +1,12 @@
 {% set ntp = salt['grains.filter_by']({
     'Ubuntu-12.04': {
         'version': '1:4.2.6.p3+dfsg-1ubuntu3.2',
+        'servers': ['0.pool.ntp.org', '1.pool.ntp.org', 
+                    '2.pool.ntp.org', '3.pool.ntp.org'],   
     },
     'Ubuntu-14.04': {
         'version': '1:4.2.6.p5+dfsg-3ubuntu2.14.04.1',
+        'servers': ['0.pool.ntp.org', '1.pool.ntp.org', 
+                    '2.pool.ntp.org', '3.pool.ntp.org'],   
     },
-}, grain='osfinger', merge=salt['pillar.get']('ntp', merge=True, default={
-    'servers': ['0.pool.ntp.org', '1.pool.ntp.org', '2.pool.ntp.org', '3.pool.ntp.org'],
-}, )) %}
+}, grain='osfinger', merge=salt['pillar.get']('ntp', default={ }, )) %}
