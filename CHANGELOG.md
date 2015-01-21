@@ -1,3 +1,7 @@
+## Version 1.1.1
+
+* Fix formula to work with salt 2014.1.4
+
 ## Version 1.1.0
 
 * Specify specific version of ntp package to be installed (which is pulled from
