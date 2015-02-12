@@ -1,3 +1,7 @@
+## Version 1.1.3
+
+* Update ntp package versions for USN-2497-1
+
 ## Version 1.1.2
 
 * Add the "tinker panic 0" for more realistic time in cloud
