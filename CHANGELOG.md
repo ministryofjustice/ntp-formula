@@ -1,3 +1,7 @@
+## Version 1.1.2
+
+* Add the "tinker panic 0" for more realistic time in cloud
+
 ## Version 1.1.1
 
 * Fix formula to work with salt 2014.1.4
