@@ -1,3 +1,7 @@
+## Version 1.1.4
+
+* Update ntp package versions
+
 ## Version 1.1.3
 
 * Update ntp package versions for USN-2497-1
