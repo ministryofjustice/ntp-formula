@@ -1,3 +1,8 @@
+## Version 1.1.5
+
+Fixes:
+* Default ntp version to latest
+
 ## Version 1.1.4
 
 * Update ntp package versions
