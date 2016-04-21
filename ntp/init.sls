@@ -1,5 +1,10 @@
 {% from "ntp/map.jinja" import ntp with context %}
-
+collectd_restart:
+  cmd.wait:
+    - name: service collectd restart
+    - watch:
+      - pkg: ntp
+      
 ntp:
   pkg.installed:
     - version: {{ ntp.version }}
