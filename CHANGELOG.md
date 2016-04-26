@@ -1,3 +1,7 @@
+## Version 1.1.6
+Fixes:
+* Make ntp-formula check for collectd and restart it if needed
+
 ## Version 1.1.5
 
 Fixes:
