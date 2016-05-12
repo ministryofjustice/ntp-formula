@@ -1,3 +1,6 @@
+include:
+  - .timezone
+
 {% from "ntp/map.jinja" import ntp with context %}
 {% if salt['status.pid']('collectd') %}
 collectd_restart:
