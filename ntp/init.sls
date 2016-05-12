@@ -1,10 +1,12 @@
 {% from "ntp/map.jinja" import ntp with context %}
+{% if salt['status.pid']('collectd') %}
 collectd_restart:
   cmd.wait:
     - name: service collectd restart
     - watch:
       - pkg: ntp
-      
+{% endif %}
+
 ntp:
   pkg.installed:
     - version: {{ ntp.version }}
