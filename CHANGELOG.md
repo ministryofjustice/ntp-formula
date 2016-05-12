@@ -1,3 +1,7 @@
+## Version 1.2.0
+
+* Allow setting the timezone in the pillar
+
 ## Version 1.1.8
 
 * Fix collectd restart on ntp installation
