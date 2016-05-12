@@ -1,3 +1,11 @@
+## Version 1.1.8
+
+* Fix collectd restart on ntp installation
+
+## Version 1.1.7
+
+* Tinker directive needs to be at the of the file.
+
 ## Version 1.1.6
 Fixes:
 * Make ntp-formula check for collectd and restart it if needed
