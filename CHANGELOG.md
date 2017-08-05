@@ -1,3 +1,7 @@
+## Version 1.3.0
+
+* Add default settings to map file
+
 ## Version 1.2.0
 
 * Allow setting the timezone in the pillar
